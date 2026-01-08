@@ -11,6 +11,10 @@ Specs are the same - with following things removed:
  - LEDs removed
 
 
+## Physical size
+
+37mm x 47mm
+
 ## Hardware Verification
 
 PCB not tested - but inherited from tested SolarMeshtasticNode.
