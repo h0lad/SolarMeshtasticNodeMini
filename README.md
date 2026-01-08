@@ -8,8 +8,11 @@ This is a miniaturized version of the [SolarMeshtasticNode](https://github.com/h
 Specs are the same - with following things removed:
  - 18650 LiPo case
  - ADC circuit for VBUS removed
- - LEDs removed
+ - LEDs 
 
+ Modifications
+  - Add proper switch for selecting bootloader or application
+  - Reset button
 
 ## Physical size
 
