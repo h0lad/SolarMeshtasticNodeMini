@@ -703,7 +703,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 -1.65 0)
+			(at 2.79 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "391c9b5c-5fd2-4cbc-b0fb-acef66c1b7c1")
@@ -1289,9 +1289,8 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 0.08375 -1.67 0)
+			(at 2.77 0.04 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "de5ed569-79c6-4c52-be49-faa94792a9ff")
 			(effects
 				(font
@@ -1871,9 +1870,8 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at -0.02625 1.78 0)
+			(at 2.74 0.09 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "ea922e04-2caf-4070-8ec3-4caae557f366")
 			(effects
 				(font
@@ -9868,8 +9866,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+3V3"
-		(at 212.507619 39.926667 0)
+	(gr_text "3V3"
+		(at 213.7 40.02 0)
 		(layer "F.SilkS")
 		(uuid "d31f0c2b-8eae-47bc-8ca8-71189c0aff89")
 		(effects
@@ -9900,6 +9898,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "T"
+		(at 238.89 75.29 0)
+		(layer "F.SilkS")
+		(uuid "f48de6e1-2982-4c7d-b4c4-92358589818e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
