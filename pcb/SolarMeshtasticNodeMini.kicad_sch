@@ -684,89 +684,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_Module:HT-CT62"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3232,8 +3149,8 @@
 		(uuid "01a9b3fd-6d02-4d95-bcb6-de6b1de05296")
 	)
 	(no_connect
-		(at 180.34 83.82)
-		(uuid "3f9f6426-7587-4bfc-8bce-16d540645d07")
+		(at 180.34 81.28)
+		(uuid "190a0112-58d1-4cd9-ab50-d54ac6c13b40")
 	)
 	(no_connect
 		(at 182.88 96.52)
@@ -4409,16 +4326,6 @@
 		)
 		(uuid "1d30f348-336e-41fe-b7ae-45398b6f371b")
 	)
-	(label "ADC_VBUS"
-		(at 180.34 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1dc7ca76-52ab-4077-9cac-fa6570401f13")
-	)
 	(label "GND"
 		(at 69.85 170.18 90)
 		(effects
@@ -4649,7 +4556,7 @@
 		)
 		(uuid "a6624b67-3e88-4527-809b-dce4d1aa894f")
 	)
-	(label "ADC_VBUS"
+	(label "ADC_LOAD"
 		(at 303.53 41.91 0)
 		(effects
 			(font
@@ -4659,7 +4566,7 @@
 		)
 		(uuid "a7ed93d5-5626-4087-8a9e-25523b11443e")
 	)
-	(label "VBUS"
+	(label "VLOAD"
 		(at 290.83 27.94 90)
 		(effects
 			(font
@@ -4758,6 +4665,16 @@
 			(justify left bottom)
 		)
 		(uuid "e45099cc-bd6e-46be-a1d3-a9ad5561d61c")
+	)
+	(label "ADC_LOAD"
+		(at 180.34 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f95fdee2-0231-4fc0-9fdc-6d20b5c97856")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7608,96 +7525,6 @@
 			(project ""
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 327.66 166.37 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b37c513c-01e7-42ca-86a0-bcdb33df74d3")
-		(property "Reference" "H3"
-			(at 330.2 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 330.2 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
-			(at 327.66 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 327.66 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 327.66 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 327.66 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 327.66 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 327.66 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MeshtasticNode"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "H3")
 					(unit 1)
 				)
 			)
