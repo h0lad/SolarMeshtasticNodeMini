@@ -169,7 +169,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at -2.9025 0.09 90)
+			(at -2.8825 -0.29 90)
 			(layer "F.SilkS")
 			(uuid "0853b1a6-d7b1-40c7-8201-aff835b0716c")
 			(effects
@@ -371,7 +371,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 2.85 -0.03 90)
+			(at -0.1 -1.6025 90)
 			(layer "F.SilkS")
 			(uuid "3c973113-4352-4e18-b5ce-6d7fb228b97f")
 			(effects
@@ -1852,6 +1852,17 @@
 			(uuid "9d08e551-0ace-4145-8591-932382886e0d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -7931,7 +7942,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at -2.91 0.06 90)
+			(at -2.89 -0.0575 90)
 			(layer "F.SilkS")
 			(uuid "f37ef1bf-2a07-4b78-822d-866930f301ca")
 			(effects
@@ -9255,7 +9266,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 2.82 0.04 90)
+			(at 2.88 0.1575 90)
 			(layer "F.SilkS")
 			(uuid "43761360-c91e-470d-96ba-62c8b2ca6477")
 			(effects
@@ -9676,6 +9687,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "A"
+		(at 234.97 32.93 0)
+		(layer "F.SilkS")
+		(uuid "2375ed73-18eb-4abc-b30c-4e744129f212")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+"
 		(at 240.74903 62.69 270)
 		(layer "F.SilkS")
@@ -9865,6 +9888,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B"
+		(at 240.77 32.93 0)
+		(layer "F.SilkS")
+		(uuid "e2e0b138-d512-40fb-bef3-846fd696ae56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
