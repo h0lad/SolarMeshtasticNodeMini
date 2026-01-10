@@ -7487,7 +7487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
 			(at 24.13 191.77 0)
 			(effects
 				(font
