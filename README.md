@@ -16,7 +16,7 @@ It's fully Meshtastic and Meshcore compatible.
 
 37mm x 47mm
 
-It should *theoretically* fit into this [AliExpress Box: 83x58x34](https://de.aliexpress.com/item/1005005480970197.html) with a little bit of spare space for the SMA antenna.
+It should *theoretically* fit into this [AliExpress Box: 83x58x34](https://de.aliexpress.com/item/1005005480970197.html) with a little bit of spare space for a through-hole SMA<->U.FL connector.
 
 ## Hardware Verification
 
