@@ -3349,16 +3349,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 106.68) (xy 300.99 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3c0729-a62d-44ad-aec3-b0f957cb9339")
-	)
-	(wire
-		(pts
 			(xy 20.32 156.21) (xy 22.86 156.21)
 		)
 		(stroke
@@ -3426,6 +3416,16 @@
 			(type default)
 		)
 		(uuid "1ada9642-57ec-4e83-9a2d-b1f9696c02d5")
+	)
+	(wire
+		(pts
+			(xy 295.91 105.41) (xy 295.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7dfef1-833c-4d2d-9b5f-74a075b9e745")
 	)
 	(wire
 		(pts
@@ -3879,16 +3879,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 96.52) (xy 300.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92fe57ed-625e-47e5-963e-f5cdb33683f2")
-	)
-	(wire
-		(pts
 			(xy 218.44 96.52) (xy 228.6 96.52)
 		)
 		(stroke
@@ -3906,16 +3896,6 @@
 			(type default)
 		)
 		(uuid "94ff7f5a-eef5-4467-9fda-b9bd6cbed8bf")
-	)
-	(wire
-		(pts
-			(xy 295.91 96.52) (xy 295.91 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "960c1be1-3d61-46fe-a266-d626000fb7f7")
 	)
 	(wire
 		(pts
@@ -3956,6 +3936,16 @@
 			(type default)
 		)
 		(uuid "9ea96089-9e75-4613-b843-b71439b146d4")
+	)
+	(wire
+		(pts
+			(xy 295.91 96.52) (xy 295.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe23e74-9ca8-464c-a6d7-df8e5193bd4c")
 	)
 	(wire
 		(pts
@@ -4006,6 +3996,16 @@
 			(type default)
 		)
 		(uuid "adbbeae2-c21d-4d26-a298-5d601910c96d")
+	)
+	(wire
+		(pts
+			(xy 300.99 96.52) (xy 300.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ced4e4-da4b-4970-9bbb-0c4785b9da62")
 	)
 	(wire
 		(pts
@@ -4438,7 +4438,7 @@
 		(uuid "3fc68d0e-2fa1-4c80-9fa4-d659d7aec056")
 	)
 	(label "+3V3"
-		(at 295.91 99.06 270)
+		(at 295.91 107.95 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4498,7 +4498,7 @@
 		(uuid "53ce25d3-3ced-462e-8375-c1371c7577e7")
 	)
 	(label "ESP32_BOOTLOADER_MODE_1"
-		(at 300.99 109.22 270)
+		(at 300.99 99.06 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6990,16 +6990,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 300.99 102.87 0)
+		(at 295.91 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9aa857a6-5407-4af8-bd66-2e5654bd7163")
 		(property "Reference" "R1"
-			(at 303.53 101.5999 0)
+			(at 292.608 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,8 +7006,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 303.53 104.1399 0)
+		(property "Value" "10k"
+			(at 293.624 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,7 +7016,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 299.212 102.87 90)
+			(at 294.132 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 102.87 0)
+			(at 295.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7034,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 300.99 102.87 0)
+			(at 295.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
