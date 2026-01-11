@@ -10,9 +10,13 @@ Specs are the same - with following things removed:
  - ADC circuit for VBUS
  - LEDs 
 
+It's fully Meshtastic and Meshcore compatible.
+
 ## Physical size
 
 37mm x 47mm
+
+It should *theoretically* fit into this [AliExpress Box: 83x58x34](https://de.aliexpress.com/item/1005005480970197.html) with a little bit of spare space for the SMA antenna.
 
 ## Hardware Verification
 
