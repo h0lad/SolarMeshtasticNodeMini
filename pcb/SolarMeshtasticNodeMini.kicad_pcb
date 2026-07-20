@@ -1426,7 +1426,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "360"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9411,7 +9411,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Boot:\n A -> Application\n B -> Bootloader\n\nISET:\n 300Ohm  -> 1A \n\nILM:\n 100kOhm -> 4.1V@1100mA\n 13kOhm  -> 4.2V@1100mA\n "
+	(gr_text "Boot:\n A -> Application\n B -> Bootloader\n\nISET:\n 360Ohm  -> ~800mA\n\nILM:\n 100kOhm -> 4.1V@1100mA\n 13kOhm  -> 4.2V@1100mA\n "
 		(at 242.04 57.16 0)
 		(layer "B.SilkS")
 		(uuid "6db13d77-32ef-44c3-a446-d5bab6572b75")
@@ -9454,22 +9454,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "1aaa7d90-04ea-4a83-9886-a2e522086a2d")
-	)
-	(segment
-		(start 238.67 74.84)
-		(end 238.73 74.9)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "1c46b17a-83a0-46c4-acfc-17300707f1e2")
-	)
-	(segment
-		(start 237.55 74.84)
-		(end 238.67 74.84)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "1d5d3676-d73e-4ab8-a924-48c45d7b63ea")
 	)
 	(segment
 		(start 239.77 42.08)
@@ -9542,6 +9526,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "41ece308-107c-4b1c-a029-79eaa1a1b074")
+	)
+	(segment
+		(start 238.525 74.84)
+		(end 237.55 74.84)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "45f41f14-ffef-4d68-a148-bfe1a6544f81")
 	)
 	(segment
 		(start 232.51625 69.08375)
@@ -10346,7 +10338,7 @@
 		(uuid "2efb25a5-f7cb-4af3-a0da-025ed5c9f71e")
 	)
 	(via
-		(at 238.73 74.9)
+		(at 238.525 74.84)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
