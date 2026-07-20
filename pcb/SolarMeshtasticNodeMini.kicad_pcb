@@ -4084,15 +4084,15 @@
 			(uuid "341bc77f-de91-457b-8135-e8ca165ecf08")
 		)
 		(embedded_fonts no)
-		(model "/home/had/Code/LoRaPowerBox/pcb/lib/library.3dshapes/SW-TH_SSSS811101.wrl"
+		(model "${KIPRJMOD}/components/steps/SW-TH_SSSS811101.step"
 			(offset
-				(xyz 0 -0.76 0.5)
+				(xyz -0.15 -0.5 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -5563,7 +5563,7 @@
 			(uuid "aac729a0-21f9-4564-ace5-17fc75b40d43")
 		)
 		(embedded_fonts no)
-		(model "BQ25185DLHR.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5582,7 +5582,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at -3.3 0 90)
+			(at -3.4875 -0.05 90)
 			(layer "F.SilkS")
 			(uuid "510dfff9-55d0-4232-b33b-feb8262e15ad")
 			(effects
@@ -9171,7 +9171,7 @@
 		(uuid "5ea1cf32-de9f-473c-89ea-1b505ed1d5fa")
 	)
 	(gr_text "SolarMeshtasticNodeMini"
-		(at 214.12 66.21 90)
+		(at 213.675 65.625 90)
 		(layer "F.SilkS")
 		(uuid "756db93a-d8c1-447e-b51a-e007587c5052")
 		(effects
