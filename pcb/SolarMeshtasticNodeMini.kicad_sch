@@ -3720,10 +3720,6 @@
 		(uuid "ba63b9af-13ac-4bd4-ba31-0fc8eda31ca5")
 	)
 	(no_connect
-		(at 232.41 80.01)
-		(uuid "bca1dfab-e96d-4fe1-a2fd-e5fbbd17027f")
-	)
-	(no_connect
 		(at 196.85 80.01)
 		(uuid "dcf59f6a-3988-41f7-b6f7-7fd4a5cf08bf")
 	)
@@ -3954,6 +3950,16 @@
 			(type default)
 		)
 		(uuid "2161bcc9-0bf4-467a-85c4-bb8aa64f7933")
+	)
+	(wire
+		(pts
+			(xy 232.41 80.01) (xy 234.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b6b78a-6bfd-4a19-b1dc-272c7ded6aaf")
 	)
 	(wire
 		(pts
@@ -5224,6 +5230,16 @@
 			(justify left bottom)
 		)
 		(uuid "a7ed93d5-5626-4087-8a9e-25523b11443e")
+	)
+	(label "+3V3"
+		(at 234.95 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af3a5e8f-0260-44fc-bd04-5e75a8f1ebfd")
 	)
 	(label "VLOAD"
 		(at 290.83 27.94 90)
