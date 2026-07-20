@@ -5437,7 +5437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1M"
 			(at 293.37 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,7 +6675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1M"
 			(at 293.37 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
