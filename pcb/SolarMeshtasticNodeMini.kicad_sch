@@ -3451,6 +3451,16 @@
 		)
 		(uuid "08d617ae-a648-4c57-b234-86e157c80961")
 	)
+	(text "Adds roughly\n~0.4s to RST"
+		(exclude_from_sim no)
+		(at 176.022 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ccc17ef-7a6b-40e0-9cf8-64959837b471")
+	)
 	(text "USART"
 		(exclude_from_sim no)
 		(at 111.506 64.008 0)
@@ -3580,6 +3590,12 @@
 		(uuid "22e9b9b6-3ab1-4d0f-8ead-d2190ca9533d")
 	)
 	(junction
+		(at 166.37 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f3bd61-5196-441a-8e3f-d514e7c8cf60")
+	)
+	(junction
 		(at 290.83 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3637,7 +3653,7 @@
 		(at 156.21 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90a7f211-c66e-4dc6-8635-f26c31527999")
+		(uuid "9223d582-8167-495a-8f6e-66c993e03ba3")
 	)
 	(junction
 		(at 147.32 31.75)
@@ -3833,6 +3849,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 226.06) (xy 166.37 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fb63cb-be49-4f0c-a7a0-204b79d91c4e")
+	)
+	(wire
+		(pts
 			(xy 189.23 157.48) (xy 194.31 157.48)
 		)
 		(stroke
@@ -3923,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 218.44) (xy 162.56 218.44)
+			(xy 156.21 218.44) (xy 166.37 218.44)
 		)
 		(stroke
 			(width 0)
@@ -4210,6 +4236,16 @@
 			(type default)
 		)
 		(uuid "67c732b9-7fbe-49a5-a833-ed2d70cbe63a")
+	)
+	(wire
+		(pts
+			(xy 166.37 218.44) (xy 176.53 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68fe997a-1b02-4eb0-b1f6-c101135dd816")
 	)
 	(wire
 		(pts
@@ -5132,7 +5168,7 @@
 		(uuid "73855751-b59e-480d-b96e-6f2ade9dc4bd")
 	)
 	(label "nReset"
-		(at 162.56 218.44 0)
+		(at 176.53 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7948,7 +7984,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d0b6f19-cdce-4aec-8891-18332fbbfa46")
 		(property "Reference" "U5"
 			(at 204.47 144.78 0)
@@ -7961,7 +7996,7 @@
 			)
 		)
 		(property "Value" "TPS22917DBV"
-			(at 204.47 147.32 0)
+			(at 205.74 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8185,6 +8220,88 @@
 			(project "SolarMeshtasticNodeMini"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 222.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91844589-b9a2-4780-965d-a91b58e9f568")
+		(property "Reference" "C10"
+			(at 170.18 220.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 170.18 223.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 165.4048 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c8a5a64-7b73-460f-8700-c88c8a112630")
+		)
+		(pin "1"
+			(uuid "e1a7cfba-0fbd-49c9-8a24-b707cb677e42")
+		)
+		(instances
+			(project "SolarMeshtasticNodeMini"
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11359,6 +11476,84 @@
 			(project "SolarMeshtasticNodeMini"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f45baf11-8e4a-4a11-a8f5-bc68c6cd5d4a")
+		(property "Reference" "#PWR024"
+			(at 166.37 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdad9b4f-f929-4530-9e14-cbf5c3c571e0")
+		)
+		(instances
+			(project "SolarMeshtasticNodeMini"
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
